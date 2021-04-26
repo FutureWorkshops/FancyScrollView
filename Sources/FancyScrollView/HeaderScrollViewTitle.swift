@@ -11,9 +11,8 @@ struct HeaderScrollViewTitle: View {
         return ZStack {
             HStack {
                 Text(title)
-                    .font(.largeTitle)
+                    .font(.system(size: 34, weight: .black))
                     .foregroundColor(.white)
-                    .fontWeight(.black)
                     .padding(.horizontal, 16)
 
                 Spacer()
