@@ -19,6 +19,11 @@ struct HeaderScrollViewTitle: View {
                 Spacer()
             }
             .padding(.bottom, 8)
+            .background(
+                LinearGradient(gradient: Gradient(colors: [.clear, Color(UIColor(red: 28/255, green: 28/255, blue: 28/255, alpha: 0.8))]), startPoint: .top, endPoint: .bottom)
+                    .frame(height: 80)
+                    .offset(y: -18)
+            )
             .opacity(sqrt(largeTitleOpacity))
             .minimumScaleFactor(0.5)
 
