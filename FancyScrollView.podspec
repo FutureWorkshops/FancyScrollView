@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                  = 'FancyScrollView'
-    s.version               = '0.1.3'
+    s.version               = '0.1.4'
     s.summary               = 'A SwiftUI ScrollView Designed to imitate the App Store and Apple Music ScrollViews'
     s.homepage              = 'https://github.com/nerdsupremacist/FancyScrollView'
     s.license               = { :type => 'Copyright', :file => 'LICENSE' }
